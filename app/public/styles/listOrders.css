@@ -1,0 +1,31 @@
+.container {
+	max-width: 800px;
+	margin: auto;
+	background: #f9f9f9;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-list a {
+	padding: 10px 15px;
+	margin: 5px 0;
+	display: block;
+	border-radius: 4px;
+	transition: background 0.3s ease;
+}
+
+.menu-list a:hover {
+	background: #00d1b2;
+	color: white;
+}
+
+.title {
+	text-align: center;
+	color: #363636;
+	margin-bottom: 20px;
+}
+
+.table {
+	margin-top: 20px;
+}
